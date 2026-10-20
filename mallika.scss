@@ -1,0 +1,49 @@
+@import "color.scss";
+
+body {
+    background-color: $grayColorVar;
+    font-family: $sns-srf;
+}
+
+.contain {
+    .page {
+        .upar {
+            header{
+                .name {
+                    h1 {
+                        color: $yellow-color;
+                    }
+                }
+            }
+        }
+        .newLineDive {
+                #uparKaNewLine1 {
+                    border:  $whiteBorder;
+            }
+        }
+            .bich {
+                .editor {
+                    #textEditor {
+                        width: $txtWidh;
+                        height: $txtHeight;
+                    }
+                    #runBtn {
+                        width: $btnWidth;
+                        height: $btnHeight;
+                        color: $pointerCorsor;
+                        font-size: 18px;
+                        text-transform: $upper;
+                        font-weight: $bld-txt;
+                    }
+                    #outputBox {
+                        border: $whiteBorder;
+                    }
+                }
+            }
+            .niche {
+                #footer {
+
+                }
+            }
+    }
+}

@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(59, 61, 73);
+  font-family: sans-serif;
+}
+
+.contain .page .upar header .name h1 {
+  color: yellow;
+}
+.contain .page .newLineDive #uparKaNewLine1 {
+  border: 2px solid white;
+}
+.contain .page .bich .editor #textEditor {
+  width: 250px;
+  height: 120px;
+}
+.contain .page .bich .editor #runBtn {
+  width: 80px;
+  height: 35px;
+  color: pointer;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.contain .page .bich .editor #outputBox {
+  border: 2px solid white;
+}
+
+/*# sourceMappingURL=mallika.css.map */
